@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Interest"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Gray">
+        <Label Content="Beginkapitaal" HorizontalAlignment="Left" Margin="159,131,0,0" VerticalAlignment="Top"/>
+        <Label Content="Gewenst eindkapitaal" HorizontalAlignment="Left" Margin="126,162,0,0" VerticalAlignment="Top"/>
+        <Label Content="Interestvoet" HorizontalAlignment="Left" Margin="167,193,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="startCapitalTextBox" HorizontalAlignment="Left" Margin="285,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="desiredCapitalTextBox" HorizontalAlignment="Left" Margin="285,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="InterestTextBox" HorizontalAlignment="Left" Margin="285,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="outputTextBox"  HorizontalAlignment="Left" Margin="446,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="344" Height="230"/>
+        <Button Content="Berekenen" HorizontalAlignment="Left" Margin="446,383,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Wissen" HorizontalAlignment="Left" Margin="511,383,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Afsluiten" HorizontalAlignment="Left" Margin="557,383,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
